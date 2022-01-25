@@ -431,8 +431,8 @@
     }
     .specialDish-detail button {
         width: 60%;
-        font-size: 14px;
-        padding : 10px 20px;
+        font-size: 12px;
+        padding : 10px 10px;
     }
 }
 @media only screen and (max-width:360px){
@@ -440,4 +440,10 @@
         height: 200px;
         width: 250px;
     }
+    .specialDish-detail button {
+        width: 80%;
+        font-size: 12px;
+        padding : 10px 10px;
+    }
+
 }

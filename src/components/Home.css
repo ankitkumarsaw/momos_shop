@@ -152,7 +152,6 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
-    color: var(--font-color3);
     padding: 5px;
 }
 
@@ -188,4 +187,257 @@
 
 .specialDish button:hover, .specialDish2 button:hover, .specialDish3 button:hover {
     background-color: #f62222;    
+}
+@media only screen and (max-width:1280px){
+    .home-img img {
+        height: 400px;
+        width: 700px;
+    }
+    .home-div{
+        height: 400px;
+        width: 700px;
+    }
+    .home-detail {
+        margin: 0px 20px;
+        padding: 5px;
+    }
+    
+    .home-detail h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .home-detail p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .home-detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .home-detail button {
+        margin: 10px 10px;
+        font-size: 18px;
+        padding: 15px 50px;
+        width: 80%;
+    }
+    .home-detail div li{
+        margin: 5px 5px;
+        padding: 5px 10px;     
+    }
+    .home-detail div li img{
+        height: 20px;
+        width: 20px;
+    }
+    .specialDish-img img {
+        height: 400px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width:1060px){
+    .home-img img {
+        height: 350px;
+        width: 500px;
+    }
+    .home-div{
+        height: 350px;
+        width: 500px;
+    }
+    .home-detail {
+        margin: 0px 20px;
+        padding: 5px;
+    }
+    
+    .home-detail h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .home-detail p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .home-detail button {
+        margin: 10px 10px;
+        font-size: 18px;
+        padding: 15px 50px;
+        width: 80%;
+    }
+    .home-detail div li{
+        margin: 5px 5px;
+        padding: 5px 10px;     
+    }
+    .home-detail div li img{
+        height: 20px;
+        width: 20px;
+    }
+    .specialDish-img img {
+        height: 350px;
+        width: 500px;
+    }
+}
+@media only screen and (max-width:990px){
+    .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .home-img img {
+        height: 350px;
+        width: 600px;
+    }
+    .home-div{
+        height:350px;
+        width: 600px;
+    }
+    .specialDish-img img {
+        height: 300px;
+        width: 450px;
+    }
+    .sph{
+        margin-top: 50px;
+    }
+    .specialDish-detail{
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:800px){
+    .home-detail button {
+        width: 65%;
+    }
+    .specialDish, .specialDish3{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      margin: 15px 50px;
+    
+    }
+    .specialDish2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 50px;
+    }
+    .specialDish-detail p {
+       text-align: center;
+    }
+    .specialDish-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        padding: 5px;
+    }
+    .specialDish-img img {
+        height: 350px;
+        width: 600px;
+    }
+
+    .specialDish-detail button {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:730px){
+    .home-img img {
+        height: 350px;
+        width: 500px;
+    }
+    .home-div{
+        height: 350px;
+        width: 500px;
+    }
+    .specialDish-img img {
+        height: 300px;
+        width: 500px;
+    }
+}
+@media only screen and (max-width:620px){
+    .home-img img {
+        height: 300px;
+        width: 450px;
+    }
+    .home-div{
+        height: 300px;
+        width: 450px;
+    }
+    
+}
+@media only screen and (max-width:560px){
+    .home-img img {
+        height: 200px;
+        width: 350px;
+    }
+    .home-div{
+        height: 200px;
+        width: 350px;
+    }
+    .specialDish-img img {
+        height: 250px;
+        width: 400px;
+    }
+    .home-detail h1 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    
+    }
+}
+@media only screen and (max-width:460px){
+    .home{
+        margin-top: -150px;
+    }
+    .home-img img {
+        height: 150px;
+        width: 300px;
+    }
+    .home-div{
+        height: 150px;
+        width: 300px;
+    }
+    .specialDish-img img {
+        height: 200px;
+        width: 350px;
+    }
+    .home-detail h1 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    
+    }
+    .home-detail h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    
+    }
+    .home-detail button {
+        width: 50%;
+        font-size: 14px;
+        padding : 10px 20px;
+    }
+    .sph{
+        margin-top: -100px;
+    }
+    .specialDish, .specialDish2, .specialDish3{
+        margin-top: -100px;
+    }
+    .specialDish-detail button {
+        width: 60%;
+        font-size: 14px;
+        padding : 10px 20px;
+    }
+}
+@media only screen and (max-width:360px){
+    .specialDish-img img {
+        height: 200px;
+        width: 250px;
+    }
 }

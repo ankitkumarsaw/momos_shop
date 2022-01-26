@@ -8,8 +8,8 @@ import greenMomos from"./img/greenMomos.jpg";
 import tandoriMomos from "./img/tandoriMomos.jpg";
 import chillyMomos from "./img/chillyMomos.jpg"
 
-export default function Home() {
-  return <div id="main">
+export default function Home(props) {
+  return <div id="main"style={props.mode}>
     <section className="home">
       <div>
         <div className="home-div"></div>
@@ -21,16 +21,16 @@ export default function Home() {
         </p> 
         <button type="button">Explore Menu</button>
         <div>
-          <li>
-          <img src={leaf} alt=""/>
+          <li className = {`${props.mode.backgroundColor === "#f8f9fa" ? "borderF" : "borderS"}`}>
+          <img src={leaf} alt="" className = {`${props.mode.backgroundColor === "#f8f9fa" ? "invertF" : "invertS"}`}/>
           <p>Fresh Food</p>
           </li>
-          <li>
-          <img src={rocket} alt=""/>  
+          <li className = {`${props.mode.backgroundColor === "#f8f9fa" ? "borderF" : "borderS"}`}>
+          <img src={rocket} alt="" className = {`${props.mode.backgroundColor === "#f8f9fa" ? "invertF" : "invertS"}`}/>  
           <p>Fast Delivery</p>
           </li>
-          <li>
-          <img src={message} alt=""/>  
+          <li className = {`${props.mode.backgroundColor === "#f8f9fa" ? "borderF" : "borderS"}`}>
+          <img src={message} alt="" className = {`${props.mode.backgroundColor === "#f8f9fa" ? "invertF" : "invertS"}`}/>  
           <p>24/7 Support</p>
           </li>
 

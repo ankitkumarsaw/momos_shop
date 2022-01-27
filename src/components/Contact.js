@@ -5,7 +5,7 @@ export default function Contact(props) {
   return <div className="contactBackground">
    <section className="contact">
     <div style={props.mode} className="detail">
-      <p>Resevation</p>
+      <p>Reservation</p>
       <h2>Book Now</h2>
     <input type="text"  placeholder="Name" ></input>
      <input type="text"  placeholder="Email" ></input>

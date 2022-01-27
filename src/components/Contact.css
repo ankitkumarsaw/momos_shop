@@ -1,0 +1,73 @@
+.contactBackground{
+    margin-bottom: 0px;
+    height:600px;
+    background-image: url(./img/contact.jpg);
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+}
+.contact div{
+    padding: 50px 20px;
+    grid-column: 2 / 5 ;
+    grid-row: 3 / 8;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact div p{
+    color: #f62222;
+}
+.contact div input[type="text"], .contact div input[type="number"] {
+    padding: 5px 10px;
+    margin: 20px 30px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px 10px 5px 10px;
+    -webkit-border-radius: 5px 10px 5px 10px;
+    -moz-border-radius: 5px 10px 5px 10px;
+    -ms-border-radius: 5px 10px 5px 10px;
+    -o-border-radius: 5px 10px 5px 10px;
+}
+.contact div textarea{
+    border: 2px solid black;
+    border-radius: 5px 10px 5px 10px;
+    -webkit-border-radius: 5px 10px 5px 10px;
+    -moz-border-radius: 5px 10px 5px 10px;
+    -ms-border-radius: 5px 10px 5px 10px;
+    -o-border-radius: 5px 10px 5px 10px;
+}
+.contact div input:focus, .contact div textarea:focus {
+    outline: none !important;
+    border: 2px solid #f62222;
+    box-shadow: 0 0 10px #f34949;
+  }
+.contact div input[type="submit"]{
+    width: 50%;
+    margin: 20px 10px;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #f34949;
+    border: 2px solid #f34949;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-radius: 10px 20px 10px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 20px 10px 20px;
+    -ms-border-radius: 10px 20px 10px 20px;
+    -o-border-radius: 10px 20px 10px 20px;
+}
+.contact div input[type="submit"]:hover{
+    background-color: #f62222; 
+}
+.fil-gap{
+    
+}

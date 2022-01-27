@@ -1,5 +1,7 @@
-export default function Navbar(props) {
-  return <div>
+ import "./Navbar.css";
+ import React from 'react';
+  export default function Navbar(props) {
+  return <div ClassName="hello">
       <nav className={`navbar fixed-top navbar-expand-lg navbar-light ${props.mode.backgroundColor === "#f8f9fa"? "bg-light" : "bg-dark"}`}>
   <div className="container-fluid  ">
     <a style={props.mode} className="navbar-brand" href="/">Aks-MOMOS</a>

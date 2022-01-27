@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Parallax from './components/Parallax';
+import Contact from './components/Contact';
 
 function App() {
   const colorMode = {
@@ -31,6 +33,8 @@ function App() {
     <>
     <Navbar enableDarkMode = {enableDarkMode} mode = {mode}/>
     <Home mode = {mode}/>
+    <Parallax mode = {mode}/>
+    <Contact mode = {mode}/>
     </>
   );
 }

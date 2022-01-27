@@ -49,16 +49,12 @@ export default function Home(props) {
         <button type="button">Order Now</button>
       </div>
       <div>
-      <div className="specialDish-div">
-        <button type="button">RECIPE</button>
-        </div>
         <div className="specialDish-img"><img src={greenMomos} alt=""/></div>
       </div>
      
     </section>
     <section className="specialDish2">
     <div>
-    <div className="specialDish-div"></div>
         <div className="specialDish-img"><img src={tandoriMomos} alt=""/></div>
       </div>
       <div className="specialDish-detail">

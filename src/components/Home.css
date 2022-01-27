@@ -158,22 +158,6 @@
     margin: 15px 50px;
 
 }
-.specialDish-div{
-    position: absolute;
-    height: 500px;
-    width: 800px;
-    background-color: transparent;
-    border-radius: 5px 40px 5px 40px;
-    -webkit-border-radius: 5px 40px 5px 40px;
-    -moz-border-radius: 5px 40px 5px 40px;
-    -ms-border-radius: 5px 40px 5px 40px;
-    -o-border-radius: 5px 40px 5px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .specialDish-img img {
     height: 500px;
     width: 800px;
@@ -428,7 +412,7 @@
     
     }
 }
-@media only screen and (max-width:460px){
+@media only screen and (max-width:490px){
     .home-img img {
         height: 150px;
         width: 300px;
@@ -457,10 +441,10 @@
         padding : 10px 20px;
     }
     .sph{
-        margin-top: -100px;
+        margin-top: -20px;
     }
     .specialDish, .specialDish2, .specialDish3{
-        margin-top: -100px;
+        margin-top: -40px;
     }
     .specialDish-detail button {
         width: 60%;

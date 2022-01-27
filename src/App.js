@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Parallax from './components/Parallax';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const colorMode = {
@@ -35,6 +36,7 @@ function App() {
     <Home mode = {mode}/>
     <Parallax mode = {mode}/>
     <Contact mode = {mode}/>
+    <Footer mode = {mode}/>
     </>
   );
 }
